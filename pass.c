@@ -1,3 +1,4 @@
+/* This is written in C. So it needs to be compiled and run */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
