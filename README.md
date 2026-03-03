@@ -7,13 +7,20 @@ git clone https://github.com/1mriz/GenPass or, Download the repository as a zip 
 
 pass.py:
 This password generator is wriiten in python. To run this, install python in your system and enter the following commmand:
-python pass.py
-
+```Python
+python genpass.py
+```
 pass.c:
 This password generator is written in c, but does the same work as the python version. To run it:
 1st step:
 Compile the program, with gcc or other compilers. Run:
-gcc pass.c
-
+```bash
+gcc genpass.c -o genpass
+```
 This will result in a executable. Let's say it outputs a file called "a.out". To run it:
-./a.out #In Linux   Or,    .\a.out #In windows
+```bash
+./genpass
+```
+To access it from any location of the terminal emulator: 
+```bash
+cp genpass ~/.local/bin/genpass
